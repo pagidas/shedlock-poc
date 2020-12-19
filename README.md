@@ -9,7 +9,7 @@ To skip the story: Goto [How to Run](#how-to-run)
 [Shedlock](https://github.com/lukas-krecan/ShedLock) 
 is a very well documented library and has already integrated with 
 [SpringBoot](https://spring.io/projects/spring-boot) 
-and [Mironaut](https://micronaut.io/) way of setting a scheduled task.
+and [Micronaut](https://micronaut.io/) way of setting a scheduled task.
 Usually, these kind of frameworks can schedule a task with just simply
 applying a decorator/annotation like so `@Scheduled` on top of your java
 method.
