@@ -57,9 +57,9 @@ Requirements:
 - docker-compose
 
 Simply run the `test.sh` at root of the project. It will:
-- builds the gradle project.
-- spins up the `DataSource` and the app that demonstrates `Shedlock`.
-- scales by `2` instances for demo.
+- build the gradle project.
+- spin up the `DataSource` and the app that demonstrates `Shedlock`.
+- scale by `2` instances for demo.
 - sleep for 8 seconds, so the app correctly connects to `DataSource`.
 - follow the docker-compose `logs`.
 
