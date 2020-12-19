@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: shelock-poc
+  server:
+    port: 8080
+
+shedlock:
+  defaults:
+    lock-at-most-for: 8s
+    lock-at-least-for: 5s
+
+elasticsearch:
+  httpHosts: "http://${elasticsearch_host:localhost}:${elasticsearch_port:9200}"
